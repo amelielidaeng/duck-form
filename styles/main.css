@@ -24,3 +24,8 @@ body {
     height: 594px;
     background-color: #FFB039;
 }
+
+.image {
+    position: fixed;
+    transform: translate(200px, 60px);
+}
