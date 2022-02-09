@@ -61,11 +61,3 @@ body {
     letter-spacing: 0.1em;
     color: #FFFFFF;
 }
-
-.select__icon {
-	position: absolute;
-	right: 15px;
-	bottom: 16px;
-	z-index: 2;
-	color: rgba(70, 96, 96, 1);
-}
