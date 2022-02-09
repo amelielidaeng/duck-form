@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 900px;
+    background-color: #9DBEBB;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+    width: 954px;
+    height: 594px;
+    background-color: #BE0909;
+}
+
+.box {
+    width: 345px;
+    height: 594px;
+    background-color: #FFB039;
+}
