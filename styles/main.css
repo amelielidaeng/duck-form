@@ -33,8 +33,31 @@ body {
     transform: translate(200px, 60px);
 }
 
-/*.form {
+.form {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color: #FEFFFF;
+}
+
+.submit {
+    width: 202px;
+    height: 48px;
+    border-radius: 23px;
+    background-color: #468189;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}

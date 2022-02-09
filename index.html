@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Ducky Formy</title>
 </head>
 <body>
     <main class="screen">
         <section class="container"> <!--this is the red box - form goes here-->
-            <form action="">
+            <form class="form" action="">
+                <label for="name" class="label">FULL NAME</label>
                 <input type="name">
+                <label for="email" class="label">EMAIL</label>
+                <input type="email" placeholder="Your Email">
+                <label for="textarea">MESSAGE REGARDING</label>
+                <input type="textarea">
+                <label for="textarea" class="label">MESSAGE</label>
+                <input type="textarea" placeholder="Your Message">
+                <button class="submit">SEND MESSAGE</button>
             </form>
 
         </section>
