@@ -45,6 +45,26 @@ body {
     line-height: 21px;
     letter-spacing: 0.3em;
     color: #FEFFFF;
+    row-gap: 30px;
+}
+
+.label {
+}
+
+.input {
+    opacity: 100%;
+    background-color: #BE0909;
+    border-style: none;
+    padding: 5px, 7px; 
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+}
+
+.list {
 }
 
 .submit {

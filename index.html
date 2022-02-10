@@ -17,9 +17,14 @@
                 <input type="name" name="name" id="name" class="input">
                 <label for="email" class="label">EMAIL</label>
                 <input type="email" name="email" id="email" class="input" placeholder="Your Email">
-                <!--want to make message regarding a dropdown just need to figure out how-->
-                <label for="textarea" class="label">MESSAGE REGARDING</label>
-                <input type="textarea" name="textarea" id="textarea" class="input">
+                <!--want to make message regarding a dropdown just need to figure out how.
+                maybe a <datalist>? -->
+                <label for="list">MESSAGE REGARDING</label>
+                <select id="list" name="ducklist" class="dropdown">
+                    <option value="red" class="list">Red Rubber Duck</option>
+                    <option value="blue" class="list">Blue Rubber Duck</option>
+                    <option value="yellow" class="list">Yellow Rubber Duck</option>
+                </select>
                 <label for="textarea" class="label">MESSAGE</label>
                 <input type="textarea" name="textarea" id="textarea" class="input" placeholder="Your Message">
                 <button class="submit">SEND MESSAGE</button>
