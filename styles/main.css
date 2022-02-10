@@ -69,8 +69,8 @@ body {
 
 /*when I fixed the box, the line was messed up instead*/
 .input-long {
-    max-width: 400px;
-    width: 100%
+    max-width: 500px;
+    width: 100%;
 }
 
 .list {
