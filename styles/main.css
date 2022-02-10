@@ -6,26 +6,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
-    height: 900px;
+    max-width: 1440px;
+    width: 100%;
+    min-height: 900px;
     background-color: #9DBEBB;
     position: relative;
 }
 
 .container {
-/*    display: flex;
-    justify-content: end; */
-    width: 954px;
-    height: 594px;
+    display: flex;
+    max-width: 954px;
+    width: 100%;
+    min-height: 594px;
     background-color: #BE0909;
 }
 
+/*so I changed to max-width etc and now 
+I can't get the yellow box to the right*/
 .box {
-    width: 345px;
-    height: 594px;
+    max-width: 345px;
+    width: 100%;
+    min-height: 594px;
     background-color: #FFB039;
-    position: absolute;
-    right: 243px;
 }
 
 .image {
@@ -38,6 +40,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    transform: translate(50px, 50px); /* is there a better way maybe*/
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -52,7 +55,6 @@ body {
 }
 
 .input {
-    opacity: 100%;
     background-color: #BE0909;
     border-style: none;
     padding: 5px, 7px; 
@@ -61,7 +63,14 @@ body {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
+    color: white;
     letter-spacing: 0.3em;
+    border-bottom: solid white 1px;
+}
+
+.input-long {
+    max-width: 400px;
+    width: 100%
 }
 
 .list {
