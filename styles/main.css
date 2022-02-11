@@ -67,13 +67,13 @@ body {
     border-bottom: solid white 1px;
 }
 
-/*when I fixed the box, the line was messed up instead*/
+/*when I fixed the box, the line was somehow messed up*/
 .input-long {
     max-width: 500px;
     width: 100%;
 }
 
-.list {
+.list:hover {
 }
 
 .submit {
@@ -89,4 +89,8 @@ body {
     text-align: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
+}
+
+.submit:hover {
+    opacity: 75%;
 }
